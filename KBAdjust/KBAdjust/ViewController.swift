@@ -76,8 +76,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 		
 		theTableView.tableFooterView = UIView()
 		
-		// increase to 1...20 to see scrollToBottom functionality
-		for i in 1...20 {
+		// use 1...20 to see scrollToBottom functionality
+		// use 1...4 to see functionality with only a few rows
+		for i in 1...4 {
 			theData.append("Row \(i)")
 		}
 		
